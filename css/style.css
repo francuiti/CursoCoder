@@ -1,0 +1,33 @@
+/* Estilos para el cuerpo del documento */
+body {
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: white;
+    background-color: navy;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: darkblue;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid darkblue;
+}
+
+
+table, th, tr{
+
+    border: 1px black solid;
+    width: 80%;margin: auto;
+    border-collapse: collapse;
+}
+
+
