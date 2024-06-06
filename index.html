@@ -9,35 +9,28 @@
     <title>Contacto</title>
 </head>
 <body>
-    <h1>María articulos de limpieza</h1>
+
     <nav>
-        
+        <h1>María articulos de limpieza</h1>
+        <hr style="border: 1px white solid;">
         <ul>
+            <li><a href="index.html#about">Sobre nosotros</a></li>
             <li><a href="pages/contacto.html">Contacto</a></li>
-            <li><a href="pages/productos.html">Producto</a></li>
-            <ol>
-                <li>Piso</li>
-                <li>Cocina</li>
-                <li>Lavandina</li>
-            </ol>
+            <li><a href="index.html#product">Productos</a></li>
             <li><a href="pages/galeria.html">Galería</a></li>
-            <li>Más productos</li>
-            <ol>
-                <li>Ventanas</li>
-                <li>Living</li>
-                <li>Baño</li>
-            </ol>
-        </ul>
-<img src="assets/images.jpg" alt="imagen de un producto de limpieza">
+            <img src="assets/images.jpg" alt="imagen de un producto de limpieza">
+    </ul>
+
     </nav>
-    <header>
-        <p>holaaa</p>
-        <a href="https://instagram.com" target="_blank">Ir a Instagram</a>
+        <h2 id="about">Sobre nosotros</h2>
+    <hr>
+    <p>Somos una empresa con varios años de experiencia dedicados a la venta de productos de limpieza</p>
+     <p>  Mira nuestro <a href="https://instagram.com" target="_blank">Instagram</a></p>
         <main>
         <div>
-            <h2>Productos</h2>
+            <h2 id="product">Productos</h2>
             <table >
-                <tr>
+                <tr id="pm">
                     <th>Nombre</th>
                     <th>Precios</th>
                 </tr>
@@ -49,26 +42,44 @@
                     <th>Cherry</th>
                     <th>600</th>
                 </tr>
-
+                <tr>
+                    <th>Lavandina</th>
+                    <th>750</th>
+                </tr>
+                <tr>
+                    <th>Trapo</th>
+                    <th>800</th>
+                </tr>
+                <tr>
+                    <th>Balde</th>
+                    <th>1500</th>
+                </tr>
+                <tr>
+                    <th>Esponja</th>
+                    <th>200</th>
+                </tr>
             </table>
 
         </div>
     </main>
-    <h1>
-    </h1>
-    <h1>Formulario de Contacto</h1>
-    <form action="#" method="post">
-        <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-        </div>
-        <div>
-            <label for="email">Correo electrónico:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-        <div>
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    <br><br><br><br><br><br>
+    <footer>
+<div id="info">
+<p>¡Contactanos para cualquier consulta!</p>
+</div>
+<div>
+<ul>
+    <li>Teléfono <br> 123-456-789</li>
+    <li>Correo electrónico <br> info@maria.com</li>
+    <li>Dirección <br> Rodriguez 149, Baradero</li>
+</ul>
+</div>
+</footer>
+
+
+    </body>
+    </header>
+    </html>
         </div>
         <button type="submit">Enviar</button>
     </body>
